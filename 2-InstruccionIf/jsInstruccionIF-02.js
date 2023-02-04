@@ -1,13 +1,15 @@
+
 function mostrar()
 {
 	
-	let variable;
-	variable=prompt("Ingrese una edad: " );
-	if(variable>18){
-		alert("Es mayor de edad")
-	}
-	else{
-		alert("Es menor de edad")
+	var edadUsuario;
+
+	edadUsuario = document.getElementById("txtIdEdad").value;
+	edadUsuario = parseInt(edadUsuario);
+
+	if(edadUsuario>18)
+	{
+		alert("La persona es mayor de edad");
 	}
 
 }//FIN DE LA FUNCIÓN

@@ -1,29 +1,43 @@
+
 function mostrar()
 {
-	/*Solucion con SWITCH
-	let edad_persona=prompt("Ingrese su edad: ");
+	/*
+	//Solución con SWITCH
+
+	var edad_persona;
+	
+	edad_persona = prompt("Ingrese su edad: ");
+
+	edad_persona = parseInt(edad_persona);
+
 	switch(edad_persona)
 	{
-		case 1:(edad_person<=15)
+		case nino:(edad_persona<=15)
 		{
 			alert("Eres un/a niño/a");
 			break;
 		}
-			case 2:(edad_persona<=18)
+			case adolescente:(edad_persona<=18)
 			{
 				alert("Eres adolescente");
 				break;
 			}
-				case 3:(edad_persona>18)
+				case adulto:(edad_persona>18)
 				{
 					alert("Eres un adulto")
 				}
-	}*/
+	}
+}
+*/
 
+	var edad;
+	var resultado;
 
+	edad = document.getElementById("txtIdEdad").value;
+	resultado = "Eres un niño";
 
-	let edad = parseInt(document.getElementById("txtIdEdad").value);
-	let resultado="Eres un niño";
+	edad = parseInt(edad);
+
 	if (edad>=13 && edad<=18)
 	{
 		resultado="Eres adolescente";

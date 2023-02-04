@@ -1,12 +1,16 @@
 function mostrar()
 {
-	let resultado="Es menor de edad";
-	let edad_persona=prompt("Ingrese su edad: ");
-	if (edad_persona>18)
+	var edadUsuario;
+
+	edadUsuario = document.getElementById("txtIdEdad").value;
+
+	edadUsuario = parseInt(edadUsuario);
+
+	if (edadUsuario >= 18)
 	{
-		resultado="Es mayor de edad";
+		alert("Eres mayor de edad");
 	}
-		alert(resultado);
+
 
 
 }//FIN DE LA FUNCIÓN

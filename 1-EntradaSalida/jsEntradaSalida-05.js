@@ -5,5 +5,6 @@ function mostrar()
 {	
 	let nombre = document.getElementById("txtIdNombre").value;
 	let edad = document.getElementById("txtIdEdad").value;
+	
 	alert("Tu nombre es: "+nombre+" y tienes "+edad);
 }

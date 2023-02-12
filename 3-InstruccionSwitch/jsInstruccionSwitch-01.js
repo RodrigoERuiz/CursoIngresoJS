@@ -1,6 +1,9 @@
 function mostrar()
 {
-	let mesDelAño =document.getElementById("txtIdMes").value;
+	var mesDelAño; 
+
+	mesDelAño = document.getElementById("txtIdMes").value;
+	
 	switch(mesDelAño)
 	{
 		case "Enero":

@@ -6,9 +6,9 @@ function mostrar()
 
 	edadUsuario = parseInt(edadUsuario);
 
-	if (edadUsuario >= 18)
+	if (edadUsuario < 12 || edadUsuario > 18)
 	{
-		alert("Eres mayor de edad");
+		alert("No es adolescente");
 	}
 
 

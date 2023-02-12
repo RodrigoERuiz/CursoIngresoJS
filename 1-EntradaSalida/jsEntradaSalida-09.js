@@ -18,6 +18,7 @@ function mostrarAumento()
 
 	//Conversion del valor de la variable "sueldo" a float
 	sueldo = parseFloat(sueldo);
+	aumento = parseFloat(aumento);
 
 	//Asignación del resultado del sueldo con su respectivo aumento  al valor del inputBox resultado
 	document.getElementById("txtIdResultado").value = ((aumento * sueldo) /100) + sueldo ;
